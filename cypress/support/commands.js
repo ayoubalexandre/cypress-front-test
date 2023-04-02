@@ -23,4 +23,6 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//Acesso à home page VR Benefícios
 Cypress.Commands.add('acessarSite', () => { cy.visit('https://vr.com.br/') })

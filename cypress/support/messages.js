@@ -1,7 +1,10 @@
 //Texto das mensagens e títulos das páginas
 
 const messages = {
-    TITULO: 'VR Benefícios - Vale Refeição, Vale Alimentação e Transporte'
+    TITULO: {
+        HOME: 'VR Benefícios - Vale Refeição, Vale Alimentação e Transporte',
+        PRA_VOCE: 'VR Benefícios - Onde aceita VR'
+    } 
 }
 
 export default messages;

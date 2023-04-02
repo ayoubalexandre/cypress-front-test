@@ -11,5 +11,5 @@ beforeEach(() => {
 it('Validar site vr', () => {
     cy
         .title()
-        .should('be.equal', messages.TITULO)
+        .should('be.equal', messages.TITULO.HOME)
 })
